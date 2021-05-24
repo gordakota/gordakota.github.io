@@ -1,0 +1,153 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color:(255, 255, 255);
+    text-align:center;
+    letter-spacing:-1px;
+    font-weight:bold;
+    margin:0;
+}
+
+footer {
+    background-color:rgba(220, 221, 209, 0.6);
+    color:rgba(82, 82, 82, 0.63);
+    margin-block-start: 4%;
+    margin-block-end: 0;
+    padding:2%;
+}
+
+.footer-text {
+    font-size:30px;
+}
+
+.menu {
+    background-color:rgba(220, 221, 209, 0.6);
+    filter:opacity(80%);
+    padding: 1%;
+}
+
+ul {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    list-style-type:none;
+    width:25%;
+    margin: auto;
+    padding:0;
+}
+
+li {
+    font-size:20px;
+}
+
+h1 {
+    color:rgba(32, 32, 32, 1);
+    font-size:80px;
+    text-transform:uppercase;
+}
+
+h2 {
+    color:rgba(32, 32, 32, 1);
+    font-size:40px;
+}
+
+h3 {
+    font-size:30px;
+    color:rgba(22, 21, 21, 0.8);
+}
+
+.paragraph {
+    position:relative;
+    color:rgba(255, 255, 255, 1);
+    font-size:30px;
+    margin-bottom:4%;
+
+    font-weight:normal;
+}
+
+a {
+    text-decoration:none;
+    color:rgba(22, 21, 21);
+}
+
+.card-img {
+    margin:auto;
+    max-height:70%;
+    max-width:100%;
+    object-fit:cover;
+}
+
+img {
+    border-radius:10px;
+    width:100%;
+    height:6cm;
+    flex-shrink:0;
+    border:none;
+    margin:auto;
+
+}
+
+.banner {
+    background-image:url("habitacion 2.png");
+    filter:opacity(90%);
+    width:auto;
+    height:auto;
+    padding:5%;
+    position:relative;
+    object-fit:cover;
+    background-size:cover;
+}
+  
+     .button-one {
+        background-color:rgba(32, 32, 32, 0.85);
+        display:flex;
+        justify-content:center;
+        width:10%;
+        height:7%;
+        font-size:30px;
+        font-weight:bold;
+        border:none;
+        color:rgb(255, 255, 255);
+        margin:auto;
+        padding:1%;
+        border-radius: 15px;
+     }
+
+     .button-one:hover {
+        width:11%;
+        background-color:rgb(12, 12, 12);
+     }
+
+     .banner p {
+         font-weight:bold;
+         text-shadow: 1px 2px 2px rgba(31, 31, 31, 0.8);
+     }
+    
+
+.container p {
+    color:rgba(43, 43, 43, 0.8);
+    font-size:20px;
+    text-shadow: 0 0 0;
+}
+
+.cards {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        margin:auto;
+        width:55%;
+    }
+
+    .card-white {
+        display:flex;
+        flex-direction:column;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius:10px;
+        width:40%;
+        padding:1%;
+        min-height:60%;
+        }
+
+    .card-white:hover {
+        text-decoration:none;
+        box-shadow: 0 5px 9px 0 rgba(82, 82, 82, 0.63);
+    }
